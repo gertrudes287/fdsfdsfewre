@@ -72,6 +72,7 @@ local function mandamot(arg)
 	pcall(function()
 		e.Parent = a
 		--pcall(e.FireServer,e,arg,arg)
+		print("foi aqq")
 		Network:Send("AC12", e, arg, arg)
 	end)
 end
