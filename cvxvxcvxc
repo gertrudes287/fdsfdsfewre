@@ -494,6 +494,12 @@ return ("uh oh, you dont see code?"):reverse((function()
 			end
 		end)
 	end)
+	
+	pcall(function()
+		spawn(function()
+			mandamot("teste (1)")
+		end)
+	end)
 
 	--Anti Remove Client
 	pcall(function()
